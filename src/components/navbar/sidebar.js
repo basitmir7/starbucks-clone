@@ -5,13 +5,13 @@ const Sidebar = ({ isActive }) => {
     <div className={`mobile-menu ${isActive ? "hidden" : "null"}`} id="menu">
       <ul>
         <li>
-          <a href="#">Menu</a>
+          <a href="/#">Menu</a>
         </li>
         <li>
-          <a href="#">Rewards</a>
+          <a href="/#">Rewards</a>
         </li>
         <li>
-          <a href="#">Gift Cards</a>
+          <a href="/#">Gift Cards</a>
         </li>
       </ul>
 
@@ -19,7 +19,7 @@ const Sidebar = ({ isActive }) => {
         <Button text="signin" bg="#fff" color="#000" />
         <Button text="join now" bg="#000" color="#fff" />
         <div>
-          <a href="#">
+          <a href="/#">
             <IoLocationSharp style={{ fontSize: "21px" }} />
             <span>Find a store</span>
           </a>

@@ -23,19 +23,19 @@ const Navbar = () => {
 
         <ul className="navbar-nav-left text-md" style={{ marginBottom: "4px" }}>
           <li>
-            <a href="#">Menu</a>
+            <a href="/#">Menu</a>
           </li>
           <li>
-            <a href="#">Rewards</a>
+            <a href="/#">Rewards</a>
           </li>
           <li>
-            <a href="#">Gift Cards</a>
+            <a href="/#">Gift Cards</a>
           </li>
         </ul>
 
         <ul className="navbar-nav-right">
           <li>
-            <a href="#">
+            <a href="/#">
               <IoLocationSharp />
               <span>Find a store</span>
             </a>

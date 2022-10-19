@@ -1,10 +1,4 @@
-import {
-  BsSpotify,
-  BsFacebook,
-  BsInstagram,
-  BsYoutube,
-  BsTwitter,
-} from "react-icons/bs";
+import { BsSpotify, BsInstagram, BsYoutube, BsTwitter } from "react-icons/bs";
 import { FaPinterestP, FaFacebookF } from "react-icons/fa";
 
 const Social = () => {
