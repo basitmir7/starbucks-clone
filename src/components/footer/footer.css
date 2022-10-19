@@ -2,4 +2,67 @@
   padding: 2rem 14rem;
   font-size: 14px;
   font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+.footer-links {
+  display: flex;
+  padding: 30px 60px;
+  border-top: 1.8px solid rgba(212, 212, 212, 0.685);
+}
+.footer-column {
+  width: 25%;
+  text-align: left;
+  padding-right: 20px;
+}
+.footer-column p {
+  font-size: 21px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 25px;
+}
+.footer-column ul {
+  font-size: 17px;
+}
+.footer-column ul li {
+  padding: 5px 0;
+  margin-bottom: 18px;
+  color: rgba(0, 0, 0, 0.58);
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-column ul li:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* social section css */
+.social-icons {
+  display: flex;
+  padding: 30px 60px;
+}
+.social-icons .icon {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(20 20 20 / 93%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  transition: all 0.3s ease-out;
+  transform-origin: center;
+  cursor: pointer;
+}
+.icon:hover {
+  outline: 6px solid rgba(155, 155, 155, 0.594);
+}
+.icon .i {
+  font-size: 21px;
+  color: #fff;
+}
+.social-section p {
+  color: rgba(13, 13, 13, 0.619);
+  text-align: left;
+  padding-left: 60px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }

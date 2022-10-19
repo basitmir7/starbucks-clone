@@ -1,0 +1,54 @@
+.main-content {
+  padding: 0 40px;
+}
+.box {
+  width: 100%;
+  display: flex;
+  margin: 32px 0;
+}
+
+.box img,
+.box-text {
+  width: 50%;
+}
+.box-text {
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-2-list {
+  list-style-type: disc;
+}
+.section-2-text {
+  text-align: left;
+}
+
+/* footer lnks section css */
+.footer-links {
+  display: flex;
+  padding: 30px 60px;
+}
+.footer-column {
+  width: 25%;
+  text-align: left;
+  padding-right: 20px;
+}
+.footer-column p {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.footer-column ul {
+  font-size: 17px;
+}
+.footer-column ul li {
+  padding: 5px 0;
+  margin-bottom: 18px;
+  color: rgba(0, 0, 0, 0.58);
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-column ul li:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
