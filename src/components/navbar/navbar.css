@@ -113,16 +113,20 @@
   .hamburger {
     display: block;
   }
+  .mobile-menu {
+    display: block !important;
+  }
 }
 
 /* side bsr css */
 .mobile-menu {
+  display: none;
   position: fixed;
   top: 95px;
   right: 0;
   background-color: #fff;
   color: rgba(0, 0, 0, 0.788);
-  width: 90%;
+  width: 85vw;
   height: 100%;
   padding: 30px;
   box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%),
@@ -167,6 +171,11 @@
   transform: translateX(100%);
 }
 
-.no-scroll {
-  overflow: hidden;
+@media (max-width: 600px) {
+  .mobile-menu a {
+    font-size: 20px !important;
+  }
+  .mobile-menu-bottom {
+    width: 80%;
+  }
 }

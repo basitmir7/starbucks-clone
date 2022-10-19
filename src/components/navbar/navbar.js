@@ -4,11 +4,14 @@ import Sidebar from "./sidebar";
 import Button from "../button/button";
 import "./navbar.css";
 import { useState } from "react";
+
 const Navbar = () => {
   const [isActive, setisActive] = useState("false");
   const toggleMenu = () => {
     setisActive(!isActive);
+    document.body.classList.toggle("no-scroll");
   };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -18,7 +21,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <ul class="navbar-nav-left text-md">
+        <ul className="navbar-nav-left text-md" style={{ marginBottom: "4px" }}>
           <li>
             <a href="#">Menu</a>
           </li>

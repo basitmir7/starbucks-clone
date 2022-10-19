@@ -8,4 +8,8 @@
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+.btn:hover {
+  opacity: 0.6;
 }

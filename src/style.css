@@ -89,3 +89,17 @@ section a {
   padding: 40px 0;
 }
 /* Navbar */
+.no-scroll {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .text-xl {
+    font-size: 32px;
+  }
+  .text-md {
+    font-size: 17px;
+  }
+  .text-sm {
+    font-size: 16px;
+  }
+}
